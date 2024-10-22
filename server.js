@@ -62,7 +62,7 @@ app.post('/name', (req, res) => {
     res.send(`Hello ${firstname} ${lastname}`);
 });
 
-
+//listening for port number
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
